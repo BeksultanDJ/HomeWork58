@@ -14,6 +14,10 @@ const App: React.FC = () => {
         setShowModal(false);
     };
 
+    const closeAlert = () => {
+        setShowAlert(false);
+    };
+
     return (
         <div className="container mt-5">
             <button className="btn btn-primary" onClick={openModal}>
